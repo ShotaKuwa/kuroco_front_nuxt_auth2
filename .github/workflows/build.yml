@@ -83,4 +83,3 @@ jobs:
           webhook_url: "https://sokutest.g.kuroco.app/direct/menu/github/"
           webhook_secret: "72a9eafc2d1753a8008f144c4fd443c6"
           data: '{"single_zip":"0","domain":"sokutest.g.kuroco-front.app", "repository":"${{ github.repository }}", "run_id":"${{ github.run_id }}", "hash":"${{ github.sha }}"}'
-
